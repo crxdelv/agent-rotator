@@ -1,0 +1,29 @@
+{
+  "name": "agent-rotator",
+  "version": "1.0.0",
+  "description": "\\u2696 A diverse user-agent generator library written in javascript",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creuserr/agent-rotator.git"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "open-source",
+    "user-agent",
+    "user-agent-generator"
+  ],
+  "author": "creuserr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/creuserr/agent-rotator/issues"
+  },
+  "homepage": "https://github.com/creuserr/agent-rotator#readme"
+}
