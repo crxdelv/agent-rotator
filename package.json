@@ -1,7 +1,7 @@
 {
   "name": "agent-rotator",
   "version": "1.0.0",
-  "description": "\\u2696 A diverse user-agent generator library written in javascript",
+  "description": "A diverse user-agent generator library written in javascript",
   "main": "dist/index.js",
   "directories": {
     "test": "test"
