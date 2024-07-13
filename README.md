@@ -30,7 +30,7 @@ For browser-based installation, import agent-rotator using html script tag:
 ```
 
 <details>
-<summary>View SRI hash</summary><br>
+<summary>SRI Signatures (SHA-384)</summary><br>
 
 Minified (v1.0.0)
 ```yaml
