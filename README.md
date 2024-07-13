@@ -42,10 +42,10 @@ Original (v1.0.0)
 
 </details>
 
-### Contribution
+## Contribution
 Before contributing, please read [CONTRIBUTION.md](CONTRIBUTION.md) for guidelines regarding the contributions.
 
-### License
+## License
 
 ```
 MIT License
