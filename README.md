@@ -1,5 +1,5 @@
 ## agent-rotator
-A diverse, personalizable, and extensible user-agent generator with over 20+ user-agents from different devices, written in javascript. :balance_scale:
+A diverse, customizable, and extensible user-agent generator with over 20+ user-agents from different devices, written in javascript. :balance_scale:
 
 ![v1.0.0](https://img.shields.io/badge/package-v1.0.0-coral?logo=npm&logoColor=white)
 ![v1.0.x](https://img.shields.io/badge/Version-v1.0.x-blue)
@@ -48,6 +48,31 @@ cross-origin: anonymous
 ```
 
 </details>
+
+## agent-rotator vs. rotation
+
+Here is a comparison table of [rotation](https://github.com/creuserr/rotation) and agent-rotator:
+
+| Feature | agent-rotator | rotation |
+|:------|:-----:|:-----:|
+| Customizable | :ballot_box_with_check: | :ballot_box_with_check: |
+| Extensible | :ballot_box_with_check: | :negative_squared_cross_mark: |
+| Node support | :ballot_box_with_check: | :negative_squared_cross_mark: |
+| Documented | :ballot_box_with_check: | :negative_squared_cross_mark: |
+| Clean source code | :ballot_box_with_check: | :negative_squared_cross_mark: |
+| Error-free templates | :ballot_box_with_check: | :negative_squared_cross_mark: |
+| Usage of Crypto API | :ballot_box_with_check: | :negative_squared_cross_mark: |
+
+**What's new?**
+
+1. Fixed inconsistency and errors on agent templates.
+2. Moved from functions to extensible classes.
+3. Added Crypto API &ndash; You can select whether to use Crypto API or Math API.
+4. Added JSDoc to every classes.
+5. Improved environment support &ndash; Browser-based, AMD (e.g. RequireJS), NodeJS and CommonJS.
+6. Added more tools.
+7. Added support for extension.
+8. Published on NPM.
 
 ## Contribution
 I accept contributions in form of issues and pull requests.
