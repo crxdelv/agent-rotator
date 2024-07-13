@@ -15,35 +15,44 @@ A diverse, personalizable, and extensible user-agent generator with over 20+ use
 
 ## Installation
 
+Install agent-rotator on your terminal with npm:
+
 ```
 npm i agent-rotator
 ```
 
 [View package](https://npmjs.com/agent-rotator) &vert; [View on JSDelivr](https://www.jsdelivr.com/package/npm/agent-rotator)
 
-**For browser-based installation**
+For browser-based installation, import agent-rotator using html script tag:
 
 ```html
 <script src="https://cdn.jsdelivr.net/gh/creuserr/agent-rotator/dist/agent-rotator.min.js" integrity="sha384-AGeCYy4n/KPnE+hqfXxHOlUG5Yg3CD/e7XCgoqqw6EJXdGwGuKHrGBfd4Yctx6pi" crossorigin="anonymous"></script>
 ```
 
 <details>
-<summary>View SRI hash</summary>
+<summary>View SRI hash</summary><br>
 
 Minified (v1.0.0)
-```html
-<script src="https://cdn.jsdelivr.net/gh/creuserr/agent-rotator/dist/agent-rotator.min.js" integrity="sha384-AGeCYy4n/KPnE+hqfXxHOlUG5Yg3CD/e7XCgoqqw6EJXdGwGuKHrGBfd4Yctx6pi" crossorigin="anonymous"></script>
+```yaml
+integrity: sha384-AGeCYy4n/KPnE+hqfXxHOlUG5Yg3CD/e7XCgoqqw6EJXdGwGuKHrGBfd4Yctx6pi
+cross-origin: anonymous
 ```
 
 Original (v1.0.0)
+```yaml
+integrity: sha384-kXwFioL2VwxOSIASZtvtwph5C/e2Fm5b224pCZHgQq5JHveEeQGQjvJ3Zmh7TaFE
+cross-origin: anonymous
+```
 ```html
-<script src="https://cdn.jsdelivr.net/gh/creuserr/agent-rotator/dist/agent-rotator.min.js" integrity="sha384-AGeCYy4n/KPnE+hqfXxHOlUG5Yg3CD/e7XCgoqqw6EJXdGwGuKHrGBfd4Yctx6pi" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/gh/creuserr/agent-rotator/dist/agent-rotator.js" integrity="sha384-kXwFioL2VwxOSIASZtvtwph5C/e2Fm5b224pCZHgQq5JHveEeQGQjvJ3Zmh7TaFE" crossorigin="anonymous"></script>
 ```
 
 </details>
 
 ## Contribution
-Before contributing, please read [CONTRIBUTION.md](CONTRIBUTION.md) for guidelines regarding the contributions.
+I accept contributions in form of issues and pull requests.
+
+For pull request contributions, please read [CONTRIBUTION.md](CONTRIBUTION.md) for conditions and guidelines.
 
 ## License
 
@@ -51,5 +60,3 @@ Before contributing, please read [CONTRIBUTION.md](CONTRIBUTION.md) for guidelin
 MIT License
 Copyright (c) 2024 si delv
 ```
-
-[View full license](LICENSE)
