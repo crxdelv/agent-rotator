@@ -72,7 +72,7 @@ Here is a comparison table of [rotation](https://github.com/creuserr/rotation) a
 5. Improved environment support &ndash; Browser-based, AMD (e.g. RequireJS), NodeJS and CommonJS.
 6. Added more tools.
 7. Added support for extension.
-8. Published on NPM.
+8. Published to NPM.
 
 ## Contribution
 I accept contributions in form of issues and pull requests.
