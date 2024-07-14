@@ -1,3 +1,6 @@
+> [!NOTE]
+> **agent-rotator** is in progress and is currently not available on npm.
+
 ## agent-rotator
 A diverse, customizable, and extensible user-agent generator with over 20+ user-agents from different devices, written in javascript. :balance_scale:
 
