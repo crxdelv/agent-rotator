@@ -25,25 +25,14 @@ npm i agent-rotator
 
 For browser-based installation, import agent-rotator using html script tag:
 
+**Minified**
 ```html
-<script src="https://cdn.jsdelivr.net/gh/creuserr/agent-rotator/dist/agent-rotator.min.js" integrity="sha384-AGeCYy4n/KPnE+hqfXxHOlUG5Yg3CD/e7XCgoqqw6EJXdGwGuKHrGBfd4Yctx6pi" crossorigin="anonymous"></script>
+<script src="https://raw.githubusercontent.com/creuserr/agent-rotator/main/dist/agent-rotator.min.js" integrity="sha384-RJsoV2OKrtzuunTYe1KgYEWzDVaE880E0c10IyT8kB4tyYDJ5b9az/HrG+Bgk6Vg" crossorigin="anonymous"></script>
 ```
 
-#### SRI Signatures (SHA-384)
-
-Minified (v1.0.0)
-```yaml
-integrity: sha384-AGeCYy4n/KPnE+hqfXxHOlUG5Yg3CD/e7XCgoqqw6EJXdGwGuKHrGBfd4Yctx6pi
-cross-origin: anonymous
-```
-
-Original (v1.0.0)
-```yaml
-integrity: sha384-kXwFioL2VwxOSIASZtvtwph5C/e2Fm5b224pCZHgQq5JHveEeQGQjvJ3Zmh7TaFE
-cross-origin: anonymous
-```
+**Original**
 ```html
-<script src="https://cdn.jsdelivr.net/gh/creuserr/agent-rotator/dist/agent-rotator.js" integrity="sha384-kXwFioL2VwxOSIASZtvtwph5C/e2Fm5b224pCZHgQq5JHveEeQGQjvJ3Zmh7TaFE" crossorigin="anonymous"></script>
+<script src="https://raw.githubusercontent.com/creuserr/agent-rotator/main/dist/agent-rotator.js" integrity="sha384-7a72KYVncHQVcPrJIZ0g3OFSGjn3vX3ZWp2VA8efq2RGUzgbHYNl+GdktrU1bQHd" crossorigin="anonymous"></script>
 ```
 
 ## License
