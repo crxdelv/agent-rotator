@@ -6,20 +6,20 @@ agent-rotator supports both server-side and client-side. For server-side, a buil
 
 For server-side, install agent-rotator with npm:
 
-```
-npm install agent-rotator
+```sh
+npm i agent-rotator
 ```
 
 Before starting, it is highly recommended to run the **test** script to detect errors and incompatibilities.
 
-```
+```sh
 cd node_modules/agent-rotator
 npm test
 ```
 
 Alternatively, you can directly use node.
 
-```
+```sh
 node node_modules/agent-rotator/test/test.js
 ```
 
@@ -28,14 +28,14 @@ node node_modules/agent-rotator/test/test.js
 For client-side, import agent-rotator with jsdelivr:
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/creuserr/agent-rotator/dist/agent-rotator.min.js" integrity="sha384-AGeCYy4n/KPnE+hqfXxHOlUG5Yg3CD/e7XCgoqqw6EJXdGwGuKHrGBfd4Yctx6pi" crossorigin="anonymous"></script>
+<script src="https://raw.githubusercontent.com/creuserr/agent-rotator/main/dist/agent-rotator.min.js" integrity="sha384-RJsoV2OKrtzuunTYe1KgYEWzDVaE880E0c10IyT8kB4tyYDJ5b9az/HrG+Bgk6Vg" crossorigin="anonymous"></script>
 <!-- Minified Version -->
 ```
 
 If you prefer the original file, use this script instead:
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/creuserr/agent-rotator/dist/agent-rotator.js" integrity="sha384-kXwFioL2VwxOSIASZtvtwph5C/e2Fm5b224pCZHgQq5JHveEeQGQjvJ3Zmh7TaFE" crossorigin="anonymous"></script>
+<script src="https://raw.githubusercontent.com/creuserr/agent-rotator/main/dist/agent-rotator.js" integrity="sha384-7a72KYVncHQVcPrJIZ0g3OFSGjn3vX3ZWp2VA8efq2RGUzgbHYNl+GdktrU1bQHd" crossorigin="anonymous"></script>
 ```
 
 ## Importation
