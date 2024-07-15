@@ -164,7 +164,7 @@ const AgentRotator = {
   
   // Xbox
   // Nintendo
-  // Playstation
+  // PlayStation
   consoles: {},
   
   // Chrome
@@ -644,7 +644,7 @@ AgentRotator.tools.AddonAgent = class {
       version() { return Random(3, 5) + ".0" }
     },
     system: {
-      conten() { return "()" }
+      content() { return "()" }
     },
     webkit: {
       name: "AppleWebKit",
@@ -824,7 +824,7 @@ AgentRotator.mobiles.Iphone = class extends IOSAgent {
      * Iphone's operating systems.
      * @type {Array.<string>}
      */
-    platforms: ["CriOS", "FxiOs"]
+    platforms: ["CriOS", "FxiOS"]
   }
   constructor(config={}) {
     super(config);
@@ -1293,11 +1293,11 @@ AgentRotator.consoles.Xbox = class extends AgentRotator.desktops.Windows {
 /**
  * Generate a PlayStation user agent.
  * 
- * @function Playstation
+ * @function PlayStation
  * @example
  * "Mozilla/4.0 (PlayStation; PlayStation 4/329.598) AppleWebKit/480 (KHTML, like Gecko) Version/4.0 Mobile Safari/405"
  */
-AgentRotator.consoles.Playstation = class extends Agent {
+AgentRotator.consoles.PlayStation = class extends Agent {
   /**
    * The information about the user agent.
    * @type {Object}
@@ -1314,44 +1314,44 @@ AgentRotator.consoles.Playstation = class extends Agent {
   }
   
   /**
-   * Set the Playstation model.
+   * Set the PlayStation model.
    *
-   * @function setPlaystation
+   * @function setPlayStation
    * @param {(number|string)} val - Value.
    */
-  setPlaystation(val) {
+  setPlayStation(val) {
     this.playstation = val.toString();
     return this;
   }
   
   /**
-   * Set the Playstation version.
+   * Set the PlayStation version.
    *
-   * @function setPlaystationVersion
+   * @function setPlayStationVersion
    * @param {(number|string)} val - Value.
    */
-  setPlaystationVersion(val) {
+  setPlayStationVersion(val) {
     this.playstationVersion = val.toString();
     return this;
   }
   
   /**
-   * Get the Playstation model.
+   * Get the PlayStation model.
    *
-   * @function getPlaystation
+   * @function getPlayStation
    * @returns {string} Value.
    */
-  getPlaystation() {
+  getPlayStation() {
     return this.playstation.toString();
   }
   
   /**
-   * Get the Playstation version.
+   * Get the PlayStation version.
    *
-   * @function getPlaystationVersion
+   * @function getPlayStationVersion
    * @returns {string} Value.
    */
-  getPlaystationVersion() {
+  getPlayStationVersion() {
     return this.playstationVersion.toString();
   }
   
@@ -1442,7 +1442,7 @@ AgentRotator.consoles.Nintendo = class extends Agent {
 /**
  * Generate an Android-based Chrome user agent.
  * 
- * @function Opera
+ * @function Chrome
  * @example
  * "Mozilla/5.0 (Linux; Android 13; K) AppleWebKit/549 (KHTML, like Gecko) Version/5.0 Chrome/74.423 Mobile Safari/481"
  */
@@ -1466,7 +1466,7 @@ AgentRotator.browsers.Chrome = class extends AndroidAgent {
 /**
  * Generate an Android-based Edge user agent.
  * 
- * @function Opera
+ * @function Edge
  * @example
  * "Mozilla/5.0 (Linux; Android 12; ILR3201) AppleWebKit/142 (KHTML, like Gecko) Version/4.0 Chrome/492 Mobile Safari/273.311 Edge/547.292.116"
  */
@@ -1514,7 +1514,7 @@ AgentRotator.browsers.Edge = class extends AndroidAgent {
 /**
  * Generate an Android-based Firefox user agent.
  * 
- * @function Opera
+ * @function Firefox
  * @example
  * "Mozilla/5.0 (Android 12; Mobile; rv:20.0) Gecko/610.594 Firefox/328"
  */
@@ -1956,12 +1956,18 @@ AgentRotator.FLAGS_CONSOLES = Object.values(AgentRotator.consoles);
 AgentRotator.FLAGS_BOTS = Object.values(AgentRotator.bots);
 
 /**
+ * All user agents addons.
+ * @type {Array}
+ */
+AgentRotator.FLAGS_ADDONS = Object.values(AgentRotator.addons);
+
+/**
  * Update the flags for addons.
  * 
  * @function UpdateFlags
  */
 AgentRotator.UpdateFlags = () => {
-  AgentRotator.FLAGS_BOTS = Object.values(AgentRotator.addons);
+  AgentRotator.FLAGS_ADDONS = Object.values(AgentRotator.addons);
 }
 
 /**
